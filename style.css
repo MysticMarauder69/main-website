@@ -1,0 +1,49 @@
+.gradient-background {
+  background: linear-gradient(300deg, #490350, #8a1e84, #dd42c8);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;}
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+h1 {
+  color: purple;
+  font-size: 3rem;
+  font-weight: bold;
+   font-family: "Big Shoulders Display", sans-serif;
+}
+h2 {
+  color: #df9f21;
+  font-size: 2rem;
+  font-family: "work sans", sans-serif;
+}
+h3 {
+  color: violet;
+}
+p{ font-family: "work sans", sans-serif;}
+.contact {
+  color: purple;
+}
+h4{color: #8a1e84;}
+
+.para1{color: #df9f21; font-weight: bold;}
+.btn-light{background-color: #df9f21; color: #490350; border: #df9f21;}
+.btn-outline-light{color: #df9f21; border:#df9f21 solid 1px}
+
+
+#bpara {
+  font-weight: bold;
+}
+.twitch {
+  color: #8a1e84;
+}
+
+.dani1{border-radius: 50%;}
